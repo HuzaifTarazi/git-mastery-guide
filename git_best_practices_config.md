@@ -11,6 +11,7 @@ git config --global --list
 git config --global core.editor "code --wait"
 git config --global init.defaultBranch main
 
+```
 Explanation:
 ○ Sets your Git username and email 
 ○ Sets default branch name to main 
