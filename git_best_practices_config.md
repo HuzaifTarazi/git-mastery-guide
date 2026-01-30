@@ -13,6 +13,6 @@ git config --global init.defaultBranch main
 
 ```
 Explanation:
-○ Sets your Git username and email 
+○ Sets your Git username and email <br>
 ○ Sets default branch name to main 
 ○ Configures VS Code as default editor
