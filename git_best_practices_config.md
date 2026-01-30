@@ -79,7 +79,7 @@ Explanation: <br>
 ○ git merge → Combine feature branch into main <br>
 ○ git branch -d → Delete a branch <br>
 
-📌 6. Remote Repository Commands
+# 📌 6. Remote Repository Commands
 
 ```bash
 
@@ -96,3 +96,64 @@ Explanation: <br>
 ○ git push → Upload changes to remote <br>
 ○ git pull → Download and merge remote changes <br>
 ○ git fetch → Download remote changes without merging <br>
+
+# 📌 7. Git Stash (Temporary Save Work)
+
+```bash
+
+git stash
+git stash list
+git stash apply
+git stash pop
+git stash drop
+
+
+```
+Explanation: <br>
+○ Temporarily save unfinished work <br>
+○ Useful when switching branches quickly <br>
+○ git stash pop → Apply changes and remove from stash <br>
+
+#  📌 8. Undo & Fix Mistakes
+
+```bash
+
+git restore <file>
+git restore --staged <file>
+git reset HEAD <file>
+git reset --soft <commit-id>
+git reset --hard <commit-id>
+git revert <commit-id>
+
+```
+Explanation: <br>
+○ git restore → Undo changes in a file <br>
+○ git reset --soft → Undo commit but keep changes staged <br>
+○ git reset --hard → Delete commit and all changes (use carefully) <br>
+○ git revert → Safe undo that creates a new commit <br>
+
+#  📌 9. Rebase (Professional Teams)
+
+```bash
+
+git rebase main
+git rebase --abort
+git rebase --continue
+
+
+```
+Explanation: <br>
+○ Rewrite history to keep commits clean <br>
+○ git rebase --abort → Cancel rebase <br>
+○ git rebase --continue → Continue after resolving conflicts <br>
+
+#  📌 10. Cherry-Pick (Move Specific Commits)
+
+```bash
+
+git cherry-pick <commit-id>
+
+```
+Explanation: <br>
+○ Copy a specific commit from one branch to another <br>
+○ Useful for hotfixes <br>
