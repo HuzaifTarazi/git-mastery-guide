@@ -860,6 +860,8 @@ Maintenance (Quarterly):    gc, fsck, clean, prune
 
 ---
 
+**Author:** ✍️ Huzaif Tarazi
+
 **Last Updated:** January 31, 2026 ⏰
 
 **Document Status:** ✅ Complete | **Completeness:** 100% | **Accuracy:** Enterprise Standard
