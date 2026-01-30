@@ -12,8 +12,6 @@ git config --global core.editor "code --wait"
 git config --global init.defaultBranch main
 
 Explanation:
-<ul>
-  <li style="list-style-type: circle;">Sets your Git username and email</li>
-  <li style="list-style-type: circle;">Sets default branch name to main</li>
-  <li style="list-style-type: circle;">Configures VS Code as default editor</li>
-</ul>
+○ Sets your Git username and email 
+○ Sets default branch name to main 
+○ Configures VS Code as default editor
