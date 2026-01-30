@@ -59,3 +59,40 @@ Explanation: <br>
 ○ git log --oneline → Short, one-line commits <br>
 ○ git log --graph --all --decorate → Visualize branches and commits <br>
 ○ git show <commit-id> → Show details of a specific commit <br>
+
+# 📌 5. Branching
+
+```bash
+
+git branch
+git branch <branch-name>
+git checkout <branch-name>
+git checkout -b <branch-name>
+git switch <branch-name>
+git merge <branch-name>
+git branch -d <branch-name>
+
+```
+Explanation: <br>
+○ Branch = separate workspace for features <br>
+○ git checkout -b → Create and switch to a new branch <br>
+○ git merge → Combine feature branch into main <br>
+○ git branch -d → Delete a branch <br>
+
+📌 6. Remote Repository Commands
+
+```bash
+
+git remote add origin <repo-url>
+git remote -v
+git push origin main
+git push -u origin main
+git pull origin main
+git fetch origin
+
+```
+Explanation: <br>
+○ git remote add → Link your local repo to a remote repo <br>
+○ git push → Upload changes to remote <br>
+○ git pull → Download and merge remote changes <br>
+○ git fetch → Download remote changes without merging <br>
