@@ -18,4 +18,4 @@ Explanation: <br>
 ○ Sets default branch name to main <br>
 ○ Configures VS Code as default editor <br>
 
-```bash
+---
