@@ -157,3 +157,31 @@ git cherry-pick <commit-id>
 Explanation: <br>
 ○ Copy a specific commit from one branch to another <br>
 ○ Useful for hotfixes <br>
+
+#  📌 11. Tags (Release Versions)
+
+```bash
+
+git tag
+git tag v1.0.0
+git push origin v1.0.0
+
+```
+Explanation: <br>
+○ Tags mark specific releases <br>
+○ Useful for version control in production <br>
+
+#  📌 12. Compare Code Changes
+
+```bash
+
+git diff
+git diff --staged
+git diff <branch1> <branch2>
+
+
+```
+Explanation: <br>
+○ git diff → See unstaged changes <br>
+○ git diff --staged → See staged changes <br>
+○ Compare differences between branches <br>
